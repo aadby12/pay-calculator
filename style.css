@@ -13,10 +13,22 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
 
 h1 {
   text-align: center;
-  color: #2926df;
+  color: #1741cc;
 }
 
 label {
