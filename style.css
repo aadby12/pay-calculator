@@ -55,3 +55,27 @@ button:hover {
   border-radius: 5px;
   font-size: 1.1em;
 }
+
+/* ✅ Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+
+  #result {
+    font-size: 1rem;
+  }
+}
